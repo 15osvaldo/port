@@ -56,7 +56,7 @@ var playerTurn, moves, isGameOver, span, restartButton;
       playerTurn = "x";  
  }  
  function gameOver(a){  
-      var gameOverAlertElement = "<b>GAME OVER</b><br><br> Player " + span[a].dataset.player.toUpperCase() + ' Win !!! <br><br>' + restartButton  
+      var gameOverAlertElement = "<b>FIN DEL JUEGO </b><br><br> Player " + span[a].dataset.player.toUpperCase() + ' GANADOR !!! <br><br>' + restartButton  
       var div = document.createElement("div");  
       div.className = "alert";  
       div.innerHTML = gameOverAlertElement;  
